@@ -1,0 +1,28 @@
+#include <stdio.h>
+void main()
+{
+    int a,b,c,d;
+    printf("PLEASE ENTER FOUR VALUES AND YOU GET  LARGE NUMBER \n");
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    printf("all good\n");
+    if ((a>b)&& (a>c)&&(a>d))
+    {
+        printf("%d is large",a);
+    }
+    else if((b>a)&& (b>c)&&(b>d))
+    {
+        printf("%d b is big",b);
+    }
+    else if((c>a)&&(c>b)&&(c>d))
+    {
+        printf("%d c is large",c);
+    }
+    else if((d>a)&&(d>b)&&(d>a))
+    {
+        printf("%d 'd' is large",d);
+    }
+    else 
+    {
+        printf("please enter valid number");
+    }
+}
